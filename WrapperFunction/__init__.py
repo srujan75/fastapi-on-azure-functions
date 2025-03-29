@@ -14,14 +14,14 @@ async def index():
 @app.get("/hello/{name}")
 async def get_name(name: str):
     return {
-        "message": f"Hey {name}! You're awesome! 🚀",
+        "message": f"Hey {name}! You're Handsome! 🚀",
     }
 
 # Route 3: Fun Fact Route
 @app.get("/funfact")
 async def fun_fact():
     return {
-        "fact": "Did you know? Honey never spoils! 🍯",
+        "fact": "Did you know? Money never spoils! 🍯",
     }
 
 # Route 4: Visit Counter
